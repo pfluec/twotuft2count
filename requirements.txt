@@ -1,0 +1,9 @@
+numpy
+pandas
+tifffile
+scipy
+napari[all]
+magicgui
+click
+tifftools
+instanseg-torch
