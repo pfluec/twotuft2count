@@ -4,7 +4,7 @@ from .combine import combine_channels
 from .segment import segment_images
 from .measure import measure_intensities
 from .quantify import quantify_cells
-from .visualize import launch_viewer
+from visualize import launch_viewer
 import os
 
 @click.group()
