@@ -4,10 +4,11 @@ from .combine import combine_channels
 from .segment import segment_images
 from .measure import measure_intensities
 from .quantify import quantify_cells
-from visualize import launch_viewer
+from .visualize import launch_viewer
 import os
 
 @click.group()
+@click.version_option(version='0.1', prog_name='twotuft2count')
 def main():
     """twotuft2count CLI: Process, analyze, and visualize multiplexed imaging data."""
     pass
