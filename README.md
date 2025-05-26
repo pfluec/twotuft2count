@@ -17,6 +17,20 @@
 
 ---
 
+## Directory structure
+
+project_root/
+├── raw_images/                  # Folder containing input single-channel TIFF images
+│   ├── Sample1_Channel1.tif
+│   ├── Sample1_Channel2.tif
+│   └── ...
+├── img/                       # Optional folder containing images as .tif stacks
+├── masks/                       # Optional folder containing segmentation masks from other segmentation model
+├── model/               # Optional folder containing a pretrained model
+└── panel.csv                    # CSV file mapping channel numbers to marker names
+
+---
+
 ## Example Workflow
 
 Assuming your individual single-channel images are in `raw_images/`, and you’ve defined a `panel.csv`:
