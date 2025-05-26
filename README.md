@@ -69,7 +69,14 @@ This file defines which image channel corresponds to which marker:
 
 ##  Installation
 
-Install via pip from PyPI:
+Python 3.9-3.11 is required for the package to run. We recommend creating a clean conda environment:
+
+```bash
+conda create -n twotuft2count python=3.11
+conda activate twotuft2count
+```
+
+And then install via pip from PyPI:
 
 ```bash
 pip install twotuft2count
