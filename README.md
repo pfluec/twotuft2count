@@ -26,9 +26,9 @@ project_root/
 │   ├── Sample1_Channel2.tif
 │   └── ...
 ├── img/                       # Optional folder containing images as .tif stacks
-├── masks/                       # Optional folder containing segmentation masks from other segmentation model
-├── model/               # Optional folder containing a pretrained model
-└── panel.csv                    # CSV file mapping channel numbers to marker names
+├── masks/                     # Optional folder containing segmentation masks from other segmentation model
+├── model/                     # Optional folder containing a pretrained model
+└── panel.csv                  # CSV file mapping channel numbers to marker names
 ```
 ---
 
