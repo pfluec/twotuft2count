@@ -19,6 +19,7 @@
 
 ## Directory structure
 
+```bash
 project_root/
 ├── raw_images/                  # Folder containing input single-channel TIFF images
 │   ├── Sample1_Channel1.tif
@@ -28,7 +29,7 @@ project_root/
 ├── masks/                       # Optional folder containing segmentation masks from other segmentation model
 ├── model/               # Optional folder containing a pretrained model
 └── panel.csv                    # CSV file mapping channel numbers to marker names
-
+```
 ---
 
 ## Example Workflow
