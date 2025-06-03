@@ -1,7 +1,7 @@
 # twotuft2count
 
 `twotuft2count` is a modular and extensible pipeline for counting tuft cells (or any cell type) in immunofluorescence images. It allows to go from raw TIFF stacks to single-cell data using a **fully scriptable and inspectable CLI**, with napari support for interactive visualization.
-[Figure1_downsampled2.pdf](https://github.com/user-attachments/files/20573493/Figure1_downsampled2.pdf)
+![alt text](https://github.com/user-attachments/files/20573493/Figure1_downsampled2.pdf "Overview_Figure")
 
 ---
 
